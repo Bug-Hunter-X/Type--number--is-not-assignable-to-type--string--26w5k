@@ -1,0 +1,1 @@
+This bug demonstrates a common type error in TypeScript. The function `combine` attempts to add a number and a string, which results in a type error because TypeScript's type system prevents implicit type coercion between numbers and strings.  The solution shows how to explicitly convert the number to a string using the `toString()` method before concatenation.
